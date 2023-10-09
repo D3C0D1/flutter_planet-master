@@ -1,17 +1,37 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gif/flutter_gif.dart';
+import 'package:flutter_planet_2/home_screen_splash.dart';
 
 class PlanetWidget extends StatefulWidget {
   String planetName;
   String image;
   String description;
+  String description2;
+  String video1;
+  String video2;
+  String video3;
+  String video4;
+  String video5;
 
-  PlanetWidget(this.planetName, this.image, this.description);
+  PlanetWidget(this.planetName, this.image, this.description,this.description2,this.video1,this.video2,this.video3,this.video4,this.video5);
 
   @override
   State<PlanetWidget> createState() => _PlanetWidgetState();
 }
 
-class _PlanetWidgetState extends State<PlanetWidget> {
+class _PlanetWidgetState extends State<PlanetWidget> with TickerProviderStateMixin {
+  late FlutterGifController controller1;
+
+ @override
+  void initState() {
+ 
+    controller1 = FlutterGifController(vsync: this);
+   super.initState();
+  
+    }
+
+  
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -19,21 +39,26 @@ class _PlanetWidgetState extends State<PlanetWidget> {
       child: Stack(
         children: [
           Padding(
-            padding: EdgeInsets.only(top: 100, bottom: 30),
+            padding: EdgeInsets.only(top: 80, bottom: 10),
             child: Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(40.0)),
               color: Colors.white,
               child: Container(
                 width: double.infinity,
-                height: size.height,
+                height: size.height ,
                 child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 20),
-                  child: Column(
+                  child:
+                  
+                  SingleChildScrollView(
+              child:
+                  
+                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(
-                        height: 80,
+                        height: 90,
                       ),
                       Text(
                         widget.planetName,
@@ -53,17 +78,31 @@ class _PlanetWidgetState extends State<PlanetWidget> {
                         textAlign: TextAlign.start,
                       )
                     ],
-                  ),
+                  )),
                 ),
               ),
             ),
           ),
           Align(
+            
             alignment: Alignment.topCenter,
-            child: Image.asset(
-              widget.image,
-              width: 180,
-            ),
+            
+            child:  Padding(
+                padding: const EdgeInsets.only(top: 1),
+                child:
+         Container(
+          
+              height: size.height*0.3,
+         width: size.width *0.4,
+          child:  
+         
+           Image.asset(
+              scale: 0.1,
+     
+          widget.image,
+                 fit: BoxFit.contain,
+          
+    ),)),
           ),
           Align(
             alignment: Alignment.bottomCenter,
@@ -75,16 +114,29 @@ class _PlanetWidgetState extends State<PlanetWidget> {
                 width: 50,
                 height: 50,
                 child: Card(
-                  color: Colors.yellow,
+                  color: Colors.amber,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(40)),
                   child: Container(
                     width: 40,
                     height: 40,
-                    child: Icon(
+                    child: GestureDetector(
+                      
+                      onTap: () {
+                        Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => HomeScreenSplash(planetName:  widget.planetName, description:  widget.description,image:  widget.image
+                        )),
+                  );
+
+                      },
+                      
+                      child: Icon(
+                      
                       Icons.arrow_forward,
                       color: Colors.white,
-                    ),
+                    ),)
                   ),
                 ),
               ),
