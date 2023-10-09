@@ -126,7 +126,7 @@ class _PlanetWidgetState extends State<PlanetWidget> with TickerProviderStateMix
                         Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => HomeScreenSplash(planetName:  widget.planetName, description:  widget.description,image:  widget.image
+                        builder: (context) => HomeScreenSplash(planetName:  widget.planetName, description:  widget.description,imagen:  widget.image,description2:  widget.description2, video1: widget.video1,video2: widget.video2,video3: widget.video3,video4: widget.video4,video5: widget.video5
                         )),
                   );
 

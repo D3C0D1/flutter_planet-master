@@ -116,7 +116,7 @@ class _menuPageState extends State<menuPage> {
                                           ),
                                       child: Center(
                                           child: Text(
-                                        "CLIMA",
+                                        "CLIMATE",
                                         style: TextStyle(
                                           color: Colors.white,
                                           fontSize: size.width * 0.040,
@@ -166,7 +166,7 @@ class _menuPageState extends State<menuPage> {
                                           ),
                                       child: Center(
                                           child: Text(
-                                        "VIDEO JUEGO",
+                                        "VIDEO GAME",
                                         style: TextStyle(
                                           color: Colors.white,
                                           fontSize: size.width * 0.040,

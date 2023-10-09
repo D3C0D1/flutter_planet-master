@@ -5,13 +5,22 @@ import 'package:flutter_planet_2/planet_widget.dart';
 class HomeScreenSplash extends StatefulWidget {
   String planetName;
   String description;
-  String image;
+  String imagen;
+
+  String description2;
+  String video1;
+  String video2;
+  String video3;
+  String video4;
+  String video5;
 
   HomeScreenSplash({
     Key? key,
     required this.planetName,
     required this.description,
-    required this.image,
+    required this.imagen,
+  required  this.description2,required this.video1, required this.video2, required this.video3,required this.video4,required this.video5
+ 
   }) : super(key: key);
 
   @override
@@ -64,7 +73,7 @@ class _HomeScreenSplashState extends State<HomeScreenSplash> {
                         child: Column(
                       children: [
                         const Text(
-                          "Eclipse \n 14 de octubre",
+                          "",
                           style: TextStyle(
                             fontSize: 45,
                             fontWeight: FontWeight.bold,
@@ -72,23 +81,32 @@ class _HomeScreenSplashState extends State<HomeScreenSplash> {
                         ),
                         PlanetWidget(
                             widget.planetName,
-                            widget.image,
+                                  
+widget.imagen,
                             widget.description,
-                            widget.description,
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            //   Image.asset("assets/ic_avatar_1.png", width: 30,),
-                            //   Image.asset("assets/ic_avatar_2.png", width: 30,),
-                            //   Image.asset("assets/ic_avatar_3.png", width: 30,),
-                            // Image.asset("assets/ic_avatar_4.png", width: 30,),
-                          ],
+                            widget.description2,
+                           widget.video1,
+                            widget.video2,
+                            widget.video3,
+                            widget.video4,
+                            widget.video5),
+                        Padding(
+                    padding: const EdgeInsets.all(20),
+                    child: Row(
+                      children: [
+                        Image.asset(
+                          widget.video1,
+                          width: 20,
                         ),
+                        Spacer(),
+                        Image.asset(
+                                widget.video2,
+                       
+                          width: 30,
+                        ),
+                      ],
+                    ),
+                  ),
                         Text(
                           "nasa space apps 2023",
                           style: TextStyle(fontSize: 10),

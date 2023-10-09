@@ -699,7 +699,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Column(
                       children: [
                         Text(
-                          "${tiempoRestante.inHours} horas, ${tiempoRestante.inMinutes % 60} minutos y ${tiempoRestante.inSeconds % 60} segundos",
+                          "${tiempoRestante.inHours} hours, ${tiempoRestante.inMinutes % 60} minute y ${tiempoRestante.inSeconds % 60} seconds",
                         ),
                         Text(
                           fecha,

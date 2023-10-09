@@ -35,6 +35,7 @@ class _PageHomesState extends State<PageHomes> {
       useOnLoadResource: true,
       useShouldInterceptAjaxRequest: true,
       useShouldInterceptFetchRequest: true,
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36', // Cambiar el User-Agent para que parezca un navegador de escritorio
 
     ),
   ),
