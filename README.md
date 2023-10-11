@@ -28,8 +28,14 @@ And here's another interesting tidbit: eclipses are not only classified as solar
 ![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/7.png)
 ![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/8.png)
 
-
-<img src="https://raw.githubusercontent.com/jolugoba/images/main/8.png" alt="Mi imagen" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/1.PNG" alt="Mi imagen" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/2.PNG" alt="Mi imagen" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/3.PNG" alt="Mi imagen" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/4.PNG" alt="Mi imagen" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/5.png" alt="Mi imagen" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/6.png" alt="Mi imagen" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/7.png" alt="Mi imagen" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/jolugoba/images/main/8.png" alt="Mi imagen" width="400" height="400" />
 
 
 ### Features
