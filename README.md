@@ -14,7 +14,10 @@ Welcome to our NASA Space Apps Challenge 2023 project repository! We are excited
 - Julio César Fermin De La Cruz
 
 ### Project Description
-[Provide a more detailed overview of your project. What problem does it address? What technologies did you use? What was your approach to solving the challenge?]
+
+Did you know that during a total solar eclipse, the ambient temperature can drop abruptly? This phenomenon occurs due to the temporary blocking of direct sunlight. It's like getting a fleeting glimpse of how nighttime feels in broad daylight! A fascinating fact that underscores the magic and surprise that eclipses bring to our world.
+
+And here's another interesting tidbit: eclipses are not only classified as solar and lunar, but there are many more celestial phenomena that we'll soon discover! Would you like to explore that and other incredible facts? "Eclipse Quest" is your stellar passport to fascinating cosmic discoveries. 🌒🌞🔭 Get ready for a celestial adventure like no other!
 
 ### Features
 - [Feature 1]
@@ -22,7 +25,7 @@ Welcome to our NASA Space Apps Challenge 2023 project repository! We are excited
 - [Feature 3]
 
 ### Technologies Used
-- [Technology 1]
+- Flutter
 - [Technology 2]
 - [Technology 3]
 
