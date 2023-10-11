@@ -23,10 +23,10 @@ And here's another interesting tidbit: eclipses are not only classified as solar
 ![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/2.PNG)
 ![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/3.PNG)
 ![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/4.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/5.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/6.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/7.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/8.PNG)
+![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/5.png)
+![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/6.png)
+![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/7.png)
+![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/8.png)
 
 ### Features
 - [Feature 1]
