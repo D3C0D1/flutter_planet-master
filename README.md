@@ -8,10 +8,10 @@
 Welcome to our NASA Space Apps Challenge 2023 project repository! We are excited to share our solution for the challenges we tackled during the event. Our project aims to [briefly describe the main goal or purpose of your project].
 
 ### Team Members
-- David Andrès Flòrez Atencia
+- David Andrès Flòrez Atencia 
 - Daniel Andrés Florez Atencia 
 - Jose Luis Gomez
-- Julio César Fermin De La Cruz
+- Julio César Fermin De La Cruz ##https://www.linkedin.com/in/cesarcruzdev/
 
 ### Project Description
 
