@@ -19,14 +19,6 @@ Did you know that during a total solar eclipse, the ambient temperature can drop
 
 And here's another interesting tidbit: eclipses are not only classified as solar and lunar, but there are many more celestial phenomena that we'll soon discover! Would you like to explore that and other incredible facts? "Eclipse Quest" is your stellar passport to fascinating cosmic discoveries. 🌒🌞🔭 Get ready for a celestial adventure like no other!
 
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/1.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/2.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/3.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/4.PNG)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/5.png)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/6.png)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/7.png)
-![Mi imagen](https://raw.githubusercontent.com/jolugoba/images/main/8.png)
 
 <img src="https://raw.githubusercontent.com/jolugoba/images/main/1.PNG" alt="Mi imagen" width="400" height="400" />
 <img src="https://raw.githubusercontent.com/jolugoba/images/main/2.PNG" alt="Mi imagen" width="400" height="400" />
